@@ -16,8 +16,18 @@
     python -m venv venv
     venv\Scripts\activate
     ```
-
-3. 安装依赖：
+2. 确保你本地有ffmpeg.exe和ffprobe.exe并已添加到环境变量
+   ```bash
+   例如：目录: D:\ffmpeg\bin
+    Mode                 LastWriteTime         Length Name
+    ----                 -------------         ------ ----
+    -a----         2025/3/10     14:05      148234240 ffmpeg.exe
+    -a----         2025/3/10     14:05      148079104 ffplay.exe
+    -a----         2025/3/10     14:05      148097536 ffprobe.exe
+   
+   ```
+   
+4. 安装依赖：
     ```bash
     pip install -r requirements.txt
     ```
